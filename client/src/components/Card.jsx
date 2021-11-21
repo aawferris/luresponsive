@@ -13,7 +13,7 @@ const Card = () => {
             <div className="bottom-card">
               <div className="left">
                 <p className="card-title">Card Title</p>
-                <button className="button">Card Tag</button>
+                <button className="button">CARD TAG</button>
               </div>
               <div className="right">
                 <div className="plus-box">
