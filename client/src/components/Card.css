@@ -68,3 +68,23 @@
   border: none;
   /* border: 2px dashed purple; */
 }
+
+@media screen and (max-width: 376px) {
+  .card {
+    display: grid;
+    grid-template-areas: "image bottom";
+    margin: 1vh auto;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.349);
+    width: 75%;
+    height: auto;
+  }
+
+  .gradient {
+    width: 90%;
+    height: 100%;
+  }
+
+  .plus-btn {
+    width: 60%;
+  }
+}
