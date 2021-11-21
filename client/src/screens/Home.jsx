@@ -6,17 +6,19 @@ import "./Home.css"
 
 export default function Home() {
   return (
-    <div>
+    <div id="main-box">
       <Header />
-      <Card />
-      {/* <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card /> */}
+      <div id="main-card-box">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
       <Footer />
     </div>
   )
